@@ -1,7 +1,7 @@
 import Weather from "./Weather";
 const Country = ({ country}) => {
     return (
-        <div>
+        <div className="country-info">
           <h2>{country.name.common}</h2>
           <p>Capital: {country.capital}</p>
           <p>Area: {country.area} km²</p>

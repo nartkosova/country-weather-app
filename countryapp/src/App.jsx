@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Countries from './country/Countries'
 import Filter from './country/Filter'
+import './App.css'
 
 const App = () => {
   const [countries, setCountries] = useState([]);
